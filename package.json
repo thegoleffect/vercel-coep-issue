@@ -1,0 +1,24 @@
+{
+	"name": "vercel-coep-issue",
+	"version": "0.0.0",
+	"description": "minimal reproduction repo for showing the coep issue on cercel",
+	"main": "index.js",
+	"author": "Van Nguyen <thegoleffect@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "^11.1.1-canary.17",
+		"react": "^0.0.0-experimental-8723e772b-20210826",
+		"react-dom": "^0.0.0-experimental-8723e772b-20210826"
+	},
+	"devDependencies": {
+		"@types/node": "^16.7.3",
+		"@types/react": "^17.0.19",
+		"typescript": "^4.4.2"
+	}
+}

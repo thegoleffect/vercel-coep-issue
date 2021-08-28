@@ -4,12 +4,11 @@ module.exports = {
 	target: "experimental-serverless-trace",
 	distDir: "dist",
 	webpack5: true,
-	// crossOrigin: "anonymous",
+	crossOrigin: "anonymous",
 	experimental: {
 		reactRoot: "concurrent",
 	},
 	reactStrictMode: true,
-	i18n,
 	headers: () => {
 		return [
 			{

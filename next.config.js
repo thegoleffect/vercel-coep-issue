@@ -10,7 +10,7 @@ module.exports = {
 		asyncWebAssembly: true,
 	},
 	reactStrictMode: true,
-	i18n,
+	// i18n,
 	headers: () => {
 		return [
 			{

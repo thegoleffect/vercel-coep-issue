@@ -1,4 +1,4 @@
-const { i18n } = require("./next-i18next.config.js");
+// const { i18n } = require("./next-i18next.config.js");
 
 module.exports = {
 	target: "experimental-serverless-trace",
@@ -7,7 +7,7 @@ module.exports = {
 	// crossOrigin: "anonymous",
 	experimental: {
 		reactRoot: "concurrent",
-		asyncWebAssembly: true,
+		// asyncWebAssembly: true,
 	},
 	reactStrictMode: true,
 	// i18n,

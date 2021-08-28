@@ -1,7 +1,7 @@
 {
 	"name": "vercel-coep-issue",
 	"version": "0.0.0",
-	"description": "minimal reproduction repo for showing the coep issue on cercel",
+	"description": "minimal reproduction repo for showing the coep webworker import issue on cercel",
 	"main": "index.js",
 	"author": "Van Nguyen <thegoleffect@gmail.com>",
 	"license": "MIT",

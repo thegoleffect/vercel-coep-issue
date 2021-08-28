@@ -10,4 +10,6 @@ module.exports = {
 		locales,
 		defaultLocale,
 	},
+	ns: ["common"],
+	localePath,
 };

@@ -4,7 +4,7 @@ module.exports = {
 	target: "experimental-serverless-trace",
 	distDir: "dist",
 	webpack5: true,
-	// crossOrigin: "anonymous",
+	crossOrigin: "anonymous",
 	experimental: {
 		reactRoot: "concurrent",
 	},
@@ -14,6 +14,7 @@ module.exports = {
 		return [
 			{
 				source: "/:path*",
+				locale: false,
 				headers: [
 					{ key: "Access-Control-Allow-Credentials", value: "true" },
 					{
